@@ -40,7 +40,7 @@ matplotlib
 seaborn
 scikit-learn
 ```
-###🧠 Dataset Description
+**###🧠 Dataset Description**
 
 Source: UCI Arrhythmia Dataset
 
@@ -58,7 +58,8 @@ Attribute Type	Description
 Continuous	ECG voltage, heart rate, QRS duration, T interval, etc.
 Categorical	Age, sex, medical history indicators
 Target	Heart condition label (1–16)
-🔬 Workflow Summary
+
+**🔬 Workflow Summary**
 
 Data Loading & Cleaning
 
@@ -106,14 +107,14 @@ Model Saving
 
 Best model stored using joblib or pickle.
 
-📈 Results
+**📈 Results**
 Model	Accuracy	Precision	Recall	F1-Score
 Logistic Regression	82.1%	80.5%	81.0%	80.7%
 Random Forest	86.7%	85.2%	86.0%	85.5%
 SVM	83.4%	82.9%	82.2%	82.5%
 
-✅ Best Model: Random Forest Classifier
-✅ Reason: Balanced performance across all metrics and interpretable feature importances.
+✅** Best Model**: Random Forest Classifier
+✅ **Reason**: Balanced performance across all metrics and interpretable feature importances.
 
 Example visualizations:
 
@@ -121,7 +122,7 @@ results/confusion_matrix.png – shows correct vs misclassified samples
 
 results/feature_importance.png – displays top ECG features influencing classification
 
-🚀 How to Run the Notebook
+🚀** How to Run the Notebook**
 
 Run all cells in Arrhythmia_Database.ipynb sequentially:
 jupyter notebook Arrhythmia_Database.ipynb
@@ -133,7 +134,7 @@ Train and evaluate multiple models
 
 Output results and plots automatically
 
-📊 Visualization Examples
+📊** Visualization Examples**
 
 Heatmap of Feature Correlations – identifies redundant ECG parameters
 
