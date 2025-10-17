@@ -1,4 +1,4 @@
-# 🫀 Arrhythmia Detection using Machine Learning
+# Arrhythmia Detection using Machine Learning
 
 ## 📘 Overview
 This project focuses on **detecting cardiac arrhythmia** using patient ECG-based data from the **Arrhythmia Database (UCI Repository)**.  
@@ -40,7 +40,7 @@ matplotlib
 seaborn
 scikit-learn
 ```
-**###🧠 Dataset Description**
+**🧠 Dataset Description**
 
 Source: UCI Arrhythmia Dataset
 
@@ -113,7 +113,8 @@ Logistic Regression	82.1%	80.5%	81.0%	80.7%
 Random Forest	86.7%	85.2%	86.0%	85.5%
 SVM	83.4%	82.9%	82.2%	82.5%
 
-✅** Best Model**: Random Forest Classifier
+✅**Best Model**: Random Forest Classifier
+
 ✅ **Reason**: Balanced performance across all metrics and interpretable feature importances.
 
 Example visualizations:
@@ -122,7 +123,7 @@ results/confusion_matrix.png – shows correct vs misclassified samples
 
 results/feature_importance.png – displays top ECG features influencing classification
 
-🚀** How to Run the Notebook**
+🚀 **How to Run the Notebook**
 
 Run all cells in Arrhythmia_Database.ipynb sequentially:
 jupyter notebook Arrhythmia_Database.ipynb
@@ -134,7 +135,7 @@ Train and evaluate multiple models
 
 Output results and plots automatically
 
-📊** Visualization Examples**
+📊**Visualization Examples**
 
 Heatmap of Feature Correlations – identifies redundant ECG parameters
 
@@ -144,7 +145,7 @@ ROC Curve & AUC – model discriminative capability
 
 Feature Importance Plot – top ECG features contributing to predictions
 
-💾 Model Deployment (Optional)
+💾 **Model Deployment (Optional)**
 
 You can export the trained model for API or web app deployment:
 
@@ -157,7 +158,7 @@ Example of loading:
 model = joblib.load('models/arrhythmia_rf.pkl')
 pred = model.predict(new_sample)
 
-🧍‍♂️ Author
+🧍‍♂️ **Author**
 
 Navya Srija
 Master’s in Computer Science, Southern Illinois University Edwardsville
@@ -165,7 +166,7 @@ Focus: Machine Learning, Data Mining, and AI for Healthcare
 📧 navyasrija77@gmail.com
 🌐 linkedin.com/in/kuna-navya-srija-564a2720b
 
-📚 References
+📚 **References**
 
 UCI Machine Learning Repository: Arrhythmia Dataset
 
