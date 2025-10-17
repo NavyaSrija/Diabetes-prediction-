@@ -59,6 +59,8 @@ Continuous	ECG voltage, heart rate, QRS duration, T interval, etc.
 Categorical	Age, sex, medical history indicators
 Target	Heart condition label (1–16)
 
+---
+
 **🔬 Workflow Summary**
 
 Data Loading & Cleaning
@@ -107,6 +109,8 @@ Model Saving
 
 Best model stored using joblib or pickle.
 
+---
+
 **📈 Results**
 Model	Accuracy	Precision	Recall	F1-Score
 Logistic Regression	82.1%	80.5%	81.0%	80.7%
@@ -123,6 +127,8 @@ results/confusion_matrix.png – shows correct vs misclassified samples
 
 results/feature_importance.png – displays top ECG features influencing classification
 
+---
+
 🚀 **How to Run the Notebook**
 
 Run all cells in Arrhythmia_Database.ipynb sequentially:
@@ -135,6 +141,8 @@ Train and evaluate multiple models
 
 Output results and plots automatically
 
+---
+
 📊**Visualization Examples**
 
 Heatmap of Feature Correlations – identifies redundant ECG parameters
@@ -144,6 +152,8 @@ Class Distribution Plot – visualizes imbalance between normal and arrhythmia c
 ROC Curve & AUC – model discriminative capability
 
 Feature Importance Plot – top ECG features contributing to predictions
+
+---
 
 💾 **Model Deployment (Optional)**
 
@@ -158,6 +168,8 @@ Example of loading:
 model = joblib.load('models/arrhythmia_rf.pkl')
 pred = model.predict(new_sample)
 
+---
+
 🧍‍♂️ **Author**
 
 Navya Srija
@@ -165,6 +177,8 @@ Master’s in Computer Science, Southern Illinois University Edwardsville
 Focus: Machine Learning, Data Mining, and AI for Healthcare
 📧 navyasrija77@gmail.com
 🌐 linkedin.com/in/kuna-navya-srija-564a2720b
+
+---
 
 📚 **References**
 
